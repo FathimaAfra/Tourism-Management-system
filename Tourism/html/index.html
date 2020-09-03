@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en"><!--This is to identify the website written language attribute -->
+<head>
+	<title>Aziz Lanka Travels</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <script>
+function setCookie(cname,cvalue,exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  var user=getCookie("username");
+  if (user != "") {
+    alert(user+ "Welcome to AZIZ LANKA TOURS again " );
+  } else {
+     user = prompt("We would like to remember you. Please provide your name:","");
+     if (user != "" && user != null) {
+       setCookie("username", user, 30);
+     }
+  }
+}
+</script>
+</head>
+<body onload="checkCookie()" >
+	
+<div class="main_container" id="home">
+	<div class="navbar">
+		<div class="logocreation">
+		 	<a href="#">Aziz Lanka Travels</a>
+		 	<div id="google_translate_element"></div>
+
+
+		</div>
+  		<div class="navbar_items">
+  			<ul>
+		  		<li><a href="#">Home</a></li>
+		  		<li><a href="#withus">With Us</a></li>
+		  		<li><a href="#accomodation">Accomodation</a></li>
+		  		<li><a href="#activity">Activity</a></li>
+		  		<li><a href="#packages">Packages</a></li>
+		  		<!--<li><a href="#">Transport</a></li>--->
+		  		<li><a href="#testimonial">Testimonial</a></li>
+		  		<li><a href="#inquireUs">Enquire Us</a></li>
+		  		<li><a href="#">Sign In</a></li>
+  			</ul>
+ 		 </div>
+	</div>
+
+	<div class="banner_image"></div>
+	<div class="background-image">
+	
+			<div class="Withus" id="withus">
+				<h1 class="title">With Us</h1>
+				<p>Our team of Azkz Lanka Travels is obsessed with finding the best adventures and tours for you in Sri Lanka. From City to Village, from adventure tours to traditional, we guarantee a lifetime experience. Our customer feedback proves that we provide one of the best Holiday Packages Sri Lanaka has ever offered. We deal in Sri Lanka Tour and Travels in all island quite proficiently.</p>
+
+				
+			
+						<div class="btn"><a href="withus.html">Learn More</a></div>
+
+
+
+				<div class="Accomodation" id="accomodation">
+					<h1 class="title">Accomodation</h1>
+					<p> Hotel rooms, Villas, 5 star, 4 star or 3star rooms come fully equipped with your daily traveller essentials, surprisingly offered at pocket friendly rates. All the accomodations are having good ranking among the people with good past experiences.They provide you all the good quality services and guide to enjoy yout tours in Sri Lanka. As you wish you can select the hotls and make plan onwards and also the quality is never a second priority at U Hotel as each of our rooms come with carefully curated amenities such as 300 thread count linens and stylish bathroom fixtures.</p>
+
+			        <div class="types_of_accomodation">
+			        	<div class="acc_types">
+			        		<img src="images/dexman-ten-hwe-vSgINvbunfo-unsplash.jpg" alt="Hotel_Image">
+						</div>
+
+						<div class="acc_types">
+			        		<img src="images/marcia-bartho-Uasj0wDn6AQ-unsplash.jpg" alt="Hotel_Image">
+						</div>
+						
+					</div>
+							<div class="btn"><a href="accomodation.html">Learn More</a></div>
+				
+
+					<div class="Activity" id="activity">
+						<h1 class="title">Activity</h1>
+						<p>Aziz Lanka Travels is proud to bring together the most memorable and satisfying Sri Lanka cultural, adventures activities. Our dedicated team is ever ready to introduce you to a tour that will linger in your memory for many years to come. We make it a point to customize the tours to give you the best holiday you will ever experience in your life.</p>
+
+				        <div class="activity_types">
+				        	<div class="typeofactivity">
+				        		<img src="images/filipp-nekhaev-Ycnt8BKlMtY-unsplash.jpg" alt="Activity_Image">
+							</div>
+
+							<div class="typeofactivity">
+				        		<img src="images/tharaka-jayasuriya-IDvdCBRminw-unsplash.jpg" alt="Activity_Image">
+							</div>
+							
+
+						
+					</div>
+								<div class="btn"><a href="activity.html">Learn More</a></div>
+
+
+
+						<div class="Packages" id="packages">
+							<h1 class="title">Packages</h1>
+							<p>We are proud to bring together the most memorable and satisfying Sri Lanka tour packages. Our dedicated team is ever ready to introduce you to a tour that will linger in your memory for many years to come. We make it a point to customize the tours to give you the best holiday you will ever experience in your life.</p>
+
+					        <div class="package_types">
+					        	<div class="pack">
+					        		<img src="images/everton-vila-AsahNlC0VhQ-unsplash.jpg" alt="Package_Image">
+								</div>
+								<div class="pack">
+					        		<img src="images/filippo-andolfatto-it2Ru3b0hhY-unsplash.jpg" alt="Package_Image">
+								</div>
+								<div class="pack">
+					        		<img src="images/paz-arando-qZIM5rutBZM-unsplash.jpg" alt="Package_Image">
+								</div>
+
+							
+							</div>
+									<div class="btn"onclick="myFunction()"><a href="#">Learn More</a></div>
+									<script>
+function myFunction() {
+  alert(" (Corona Virus (COVID 19): Please check for travel restrictions. Travel may be permitted only for certain purposes and in particular, touristic travel may not be allowed");
+}
+</script>
+
+	
+
+							<div class="Testimonial" id="testimonial">
+							<h1 class="title">Testmonial</h1>
+							<p>We are proudly introduce our services and the customer experiences from here.</p>
+
+							
+						</div>
+									<div class="btn" onclick="myFunction()"><a href="#">Learn More</a></div>
+						
+
+								<div class="EnquireUs" id="inquireUs">
+									<h1 class="title">Inquire Us</h1>
+									<p> Dont be late Regsiter soon and join with us to explore the pearl of indian ocean and get some amazing discounts for the future tours</p>
+
+									
+								</div>
+											<div class="btn"><a href="registration.php">Learn More</a></div>
+	
+
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="uparrow">
+						<a href="#home"><img src="images/up-arrow-png-20.png"alt="uparrow_img"></a>
+					</div>
+				</div>
+				
+
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="index.html"> Aziz Lanka Travels</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+				<!--
+<footer>
+	<div class="footer-wrapper">
+		<div class="single-footer">
+			<h2>Navigation</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</div>
+		<div class="single-footer">
+			<h2>Company Logo</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</footer>-->
+
+
+
+
+</body>
+</html>

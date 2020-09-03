@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+*{
+	margin: 0px !important;
+	padding: 0px!important;
+	box-sizing: border-box!important;
+	outline: none!important;
+	list-style: none!important;
+	text-decoration: none!important;
+	font-family: 'PT Sans Narrow', sans-serif!important;
+}
+
+.main_container{
+	position: relative!important;
+}
+
+/*Navigation Bar */
+
+.navbar{
+	width: 100%!important;
+	height: 65px !important;
+	display: flex !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+	position: absolute!important;
+}
+
+.logocreation a{
+	font-family: 'Permanent Marker', cursive !important;
+	font-size: 30px !important;
+	color: 	#e68a00 !important;
+}
+
+.navbar .navbar_items ul{
+	display: flex !important;
+}
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase !important;
+	margin: 0 10px !important;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.navbar .navbar_items ul li a{
+	color: #fff !important;
+}
+
+@media (max-width: 720px){
+	.navbar{
+		height: auto!important;
+		flex-direction: column!important;
+	}
+
+	.navbar_items ul{
+		flex-direction: column!important;
+		text-align: center!important;
+
+	}
+
+	.logocreation{
+		margin-bottom: 25px!important;
+	}
+
+	.navbar .navbar_items ul li{
+		margin-bottom: 5px !important;
+	}
+}
+
+
+.banner_image{
+	background : url("../images/shashank-hudkar-oKNkrKfJ5TQ-unsplash.jpg") no-repeat top center;
+	/*width: 100% !important;*/
+	height:650px !important;
+	background-size: cover !important;
+}
+.uparrow{
+	position: fixed;
+	bottom: 25px;
+	width: 40px;
+	height: 40px;
+	right: 25px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	background: #ff9900;
+	border-radius: 50%;
+
+}
+.header{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+background:black;
+text-align: center;
+border:1px solid #80C4DE;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px;
+padding: 20px; 
+}
+

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+*{
+	margin: 0px !important;
+	padding: 0px!important;
+	box-sizing: border-box!important;
+	outline: none!important;
+	list-style: none!important;
+	text-decoration: none!important;
+	font-family: 'PT Sans Narrow', sans-serif!important;
+
+}
+
+.main_container{
+	position: relative!important;
+}
+
+/*Navigation Bar */
+
+.navbar{
+	width: 100%!important;
+	height: 65px !important;
+	display: flex !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+	position: absolute!important;
+}
+
+.logocreation a{
+	font-family: 'Permanent Marker', cursive !important;
+	font-size: 30px !important;
+	color: 	#e68a00 !important;
+}
+
+.navbar .navbar_items ul{
+	display: flex !important;
+}
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase !important;
+	margin: 0 10px !important;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.navbar .navbar_items ul li a{
+	color: #fff !important;
+}
+
+@media (max-width: 720px){
+	.navbar{
+		height: auto!important;
+		flex-direction: column!important;
+	}
+
+	.navbar_items ul{
+		flex-direction: column!important;
+		text-align: center!important;
+
+	}
+
+	.logocreation{
+		margin-bottom: 25px!important;
+	}
+
+	.navbar .navbar_items ul li{
+		margin-bottom: 5px !important;
+	}
+}
+
+
+.banner_image{
+	background : url("../images/egle-sidaraviciute-RA0ulK_q67w-unsplash.jpg") no-repeat top center;
+	width: 100% !important;
+	height:650px !important;
+	background-size: cover !important;
+}
+.uparrow{
+	position: fixed;
+	bottom: 25px;
+	width: 40px;
+	height: 40px;
+	right: 25px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	background: #ff9900;
+	border-radius: 50%;
+
+}
+
+.uparrow img{
+	width: 35px;
+	height: 35px;
+	z-index: 1;
+}
+
+.Withuspage{
+	padding: 5% 10%;
+	text-align: center;
+	background:  white;
+	
+}
+
+h1.withusheading{
+margin-bottom: 20px;
+color: #408000;
+font-family: 'PT Sans Narrow', sans-serif;
+text-transform: uppercase;
+font-size: 80px;
+text-align: center;
+padding: 5% 10%;
+}
+
+h2.firstline{
+	font-size: 50px;
+	text-align: center;
+
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #ff0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #408000;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
